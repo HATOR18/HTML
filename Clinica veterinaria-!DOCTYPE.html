@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veterinaria,especializada en animales exóticos">
+    <title>Veterinaria Exóticos</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- Open Graph Tags -->
+    <meta property="og:title" content="Veterinaria Exóticos">
+    <meta property="og:description" content="Veterinaria, especializada en animales exóticos">
+    <meta property="og:image" content="URL_de_la_imagen">
+    <meta property="og:url" content="URL_de_la_página">
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGFRpcOe1bj1UbtplfjyhB8yGULTRMeB9ZOA&s" alt="Veterinaria Exóticos logo" style="width:50%;height:auto;">
+        <h1><em>Centro Veterinario Exóticos</em></h1>
+    </header>
+    <main>
+        <section>
+            <h2>Veterinarios especializados en animales exóticos</h2>
+            <p>¡Las mascotas no son solamente perros y gatos! Entendemos que el amor por los animales. Por eso que nuestro equipo de veterinarios especializados en animales exóticos está aquí para brindar cuidado experto a tus amigos peludos no tan comunes.</p>
+       <h2>¡Estos son solo algunas de las especies que recibimos en nuestra clínica veterinaria!</h2>
+            <ul>
+                <li><a href="Conejos_y_Cobayas.html" target="_blank" rel="noopener noreferrer">Conejos y Cobayas</a></li>
+                <li><a href="Tortugas.html" target="_blank" rel="noopener noreferrer">Tortugas</a></li>
+                <li><a href="Hurones.html" target="_blank" rel="noopener noreferrer">Hurones</a></li>
+                <li><a href="Loros.html" target="_blank" rel="noopener noreferrer">Loros, periquitos, agapornis...</a></li>
+                <li><a href="T-rex.html" target="_blank" rel="noopener noreferrer">T-rex</a></li>
+            </ul>
+            <h2>Desde reptiles hasta aves y pequeños mamíferos</h2>
+            <p>Desde reptiles hasta aves y pequeños mamíferos, nuestras clínicas ofrecen servicios veterinarios específicamente diseñados para las necesidades únicas de los animales exóticos. Comprendemos las peculiaridades y la naturaleza de estas mascotas, y nuestro equipo de veterinarios está dedicado a proporcionar orientación y recomendaciones para garantizar su salud y bienestar.</p>
+            <p>En Centro Veterinario <em>Exóticos</em>, celebramos la diversidad de compañeros en tu hogar, ofreciendo atención especializada a cada uno de ellos. Confía en nosotros para proporcionar el cuidado excepcional que tus amigos exóticos merecen.</p>
+           <figure>
+            <img src="https://fotos.perfil.com/2015/06/06/trim/1280/720/equipo-el-cirujano-veterinario-luke-gamble-lidero-al-grupo-de-paleontologos-y-biologos-que-realizo-la-diseccion-0606-g1.jpg" alt="t-rex en camilla" style="width:50%;height:auto;">
+            <figcaption>El equipo del cirujano veterinario realizó la operación a un T-REX.</figcaption>
+           </figure>
+        </section>
+        <section>
+            <!-- Contacto -->
+            <h2>Contáctanos</h2>
+            <p>Si tienes una mascota exótica o estás considerando adoptar una, no dudes en contactarnos para programar una consulta. Estamos aquí para ayudarte a mantener a tus amigos especiales saludables y felices.</p>
+<p><strong>Email:</strong> <a href="mailto:contacto@veterinariaexoticos.com">contacto@veterinariaexoticos.com</a></p>
+        </section>
+        <section>
+            <!-- Formulario de contacto -->
+            <form action="submit_form.php" method="post">
+    <fieldset>
+        <legend>Formulario de Cita para Mascotas</legend>
+<!-- NOMBRE -->
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" placeholder="Ej: Juan Pérez" required><br><br>
+        <!-- EMAIL -->
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="Ej: juanperez@example.com" ><br><br>
+<!-- TELEFONO -->
+        <label for="phone">Teléfono:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Ej: 123456789"><br><br>
+<!-- SELECT: ESPECIE -->
+        <label for="species">Especie de Mascota:</label><br>
+        <select id="species" name="species" required>
+            <option value="">-- Selecciona una opción --</option>
+            <option value="Conejos">Conejos</option>
+            <option value="Tortugas">Tortugas</option>
+            <option value="Hurones">Hurones</option>
+            <option value="Aves">Aves</option>
+            <option value="T-rex">T-rex</option>
+            <option value="Otro">Otro</option>
+        </select><br><br>
+<!-- FECHA -->
+        <label for="date">Fecha de la cita:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+<!-- MENSAJE -->
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+ <!-- BOTÓN -->
+        <button type="submit">Enviar</button>
+    </fieldset>
+</form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Veterinaria Exóticos</p>
+    </footer>
+</body>
+</html>
